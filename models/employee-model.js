@@ -5,6 +5,10 @@ const MODEL_NAME = 'employee';
 
 // Define Employee Schema
 const EmployeeSchema = mongoose.Schema({
+  // _id:{
+  //   type: Number,
+  //   // required: true,
+  // },
   name: {
     type: String,
     required: true
